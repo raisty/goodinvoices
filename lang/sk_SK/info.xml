@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<langfile version="1.0.0" type="language">
+	<name>Slovensky</name>
+	<shortname>sk_SK</shortname>
+	<englishname>Slovak</englishname>
+	<version>1.0.1</version>
+	<creationDate>2011-10-20</creationDate>
+	<author>Rastislav</author>
+	<authorEmail></authorEmail>
+</langfile>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<langfile version="1.0.0" type="language">
+	<name>English</name>
+	<shortname>en_AU</shortname>
+	<englishname>AU</englishname>
+	<version>1.0.0</version>
+	<creationDate>2012-07-22</creationDate>
+	<author>Justin Kelly</author>
+	<authorEmail>justin@kelly.org.au</authorEmail>
+</langfile>
