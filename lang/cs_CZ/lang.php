@@ -19,7 +19,7 @@ regex :%s/;/ /1/;// 1\/\/1/g - remove the spaces
  */
 
 #all
-$title = "SimpleInvoices|Fork";//1
+$title = "GoodInvoices";//1
 
 $LANG['about'] = "O programu";//1
 $LANG['account_info'] = "Informace ú?tu";//1
@@ -153,7 +153,7 @@ $LANG['gross_total'] = "Hrubá ?ástka";//1
 $LANG['help'] = "Nápov?da";//1
 $LANG['help_age'] = "The 'Age' field indicates how long the invoice has been unpaid for. If the invoice was created on the 1st of the month, at the 21st of that month if the invoice still had not been made in full the invoice 'Age' would be 21 days.<br /><br />If the invoice has been paid in full then the 'Age' field will be blank.";//0
 $LANG['help_backup_database'] = "For the backup to work the webserver user(hopefully your running Apache) must have read/write permissions to the database_backups directory in the Simple Invoices folder<br /><br />Also if you are extra paranoid (like me :) ) about your data I recommend using phpMyAdmin.  This backup script should work fine but if require 'enterprise grade' backup reliability phpMyAdmin rocks.<br /><br />Note: If you are using Simple Invoices in the demo environment on SourceForge, backups won't work due to setup of their servers.";//0
-$LANG['help_backup_database_fwrite'] = "<b>Got fwrite() errors?</b><br />If you received fwrite() errors when atempting to backup your Simple Invoices database this means that the webserver user(hopefully your running Apache) doesn't have read/write permissions to the tmp/database_backups directory in the Simple Invoices folder<br /><br />Please change the permissions on this directory and attempt the backup again.  To change the permissions of the tmp/database_backups directory in Unix/Linix/OSX cd to the Simple Invoice directory (<i>cd /var/www/html/simpleinvoices</i>) and then issue the chmod command to give the webserver user read/write permissions (<i>chmod -Rv 777 tmp/database_backups</i>)";//0
+$LANG['help_backup_database_fwrite'] = "<b>Got fwrite() errors?</b><br />If you received fwrite() errors when atempting to backup your Simple Invoices database this means that the webserver user(hopefully your running Apache) doesn't have read/write permissions to the tmp/database_backups directory in the Simple Invoices folder<br /><br />Please change the permissions on this directory and attempt the backup again.  To change the permissions of the tmp/database_backups directory in Unix/Linix/OSX cd to the Simple Invoice directory (<i>cd /var/www/html/GoodInvoices</i>) and then issue the chmod command to give the webserver user read/write permissions (<i>chmod -Rv 777 tmp/database_backups</i>)";//0
 $LANG['help_custom_fields'] = "This field is a 'Custom Field'. This means that the label can be defined as whatever you want (ie. Barcode, Tax number, MSN, etc...). <br /><br />To edit or view existing 'Custom Fields' please select the Custom Fields option from the Options menu.";//0
 $LANG['help_customer_contact'] = "The 'Attn.' or Customer Contact field allow you to specify a contact within your customers business.<br /><br />This is usefull if you customer has many employees and you need to directly specify on the invoice who within your customers business this invoice is for.<br /><br /> ie. Within the customer 'Springfield Power Plant'  you may want to specify Mr Burns (or Smithers) as the customer contact as they are the person who gets the invoice.<br /><br />So an Invoice will look like <br /><br />Customer: Springfield Power Plant<br />Attn.: Mr Burns<br />";//0
 $LANG['help_database_patches'] = "<b>Database patches need to be applied</b><br />There are database patches that need to be applied, please select 'Database Upgrade Manager' from the Options menu and follow the instructions.<br /><br />The 'Database Upgrade Manager' is how Simple Invocies manages modification to the structure of the Simple Invoices database. With each new release there may be 'Database patches' that need to be applied. Database Upgrade Manage looks after these database patches.<br /><br />Database patches are individual modifications to the Simple Invoices database. With a new release there may be multiple patches that need to be applied.";//0
@@ -187,9 +187,9 @@ $LANG['help_new_password'] = "If you want to change the user password fill in th
 $LANG['help_process_payment_auto_amount'] = "The value in the <b>Amount</b> field automatically defaults to the amount owed for the selected invoice. This field is editable and you can change the amount to the actual amount received.<br /><br />This field defaults to the amount owed as the most common payment amount to be processed is the same as the amount owed.";//0
 $LANG['help_process_payment_details'] = "Once an invoice has been selected in the 'Invoice ID' field, the biller name, customer name. total of the invoice, amount already paid and the amount outstanding will be displayed in the 'Details' section of the Process Payment screen.<br /><br />If you don't see any information in the 'Details' section either you haven't selected a valid invoice in the 'Invoice ID' or you have not entered the invoice ID correctly. Please refer to Invoice ID on this page on how to enter the invoice ID correctly.";//0
 $LANG['help_process_payment_inv_id'] = "To select an invoice to process a payment against please enter the invoice number in the 'Invoice ID' field. This field is an 'auto-complete' field which means that say if you have 12 invoices in your database, when you enter '1' into this field it will return a drop down list of all the invoices with '1' in its <b>Invoice ID</b>.<br /><br />So invoices 1,10,11, and 12 will be returned if you enter '1'. To select the required invoice either use the navigations keys on your keyboard and click enter on the invoice of use your mouse and click on the invoice.<br /><br />Once an invoice has been selected using the above process all the details for this invoice will be displayed in the 'Details' section of the Process Payment screen.";//0
-$LANG['help_reports_xsl'] = "<b>Report errors</b><br />If you received a 'OOOOPS, THERE'S AN ERROR HERE.' error when you attempted to run a report in Simple Invoices this means that your version of PHP doesn't have the correct extentions installed(or enabled).<br /><br />If your running a Windows server and using WAMP5 please refer to the page on the Simple Invoices wiki for information on how to fix this http://simpleinvoices.org/wiki/doku.php?id=how_to_i_get_reports_working_in_windows_wamp5<br /><br />If your running Unix/Linux and PHP5 please make sure you have the xsl extension installed and enabled in your php.ini. On Ubuntu GNU/Linux please install the php-xsl package for PHP5 <br /><br />If your using PHP4 please make sure that your PHP has Sablotron support '--enable-xslt'<br /><br />Note: If you are using Simple Invoices in the demo environment on SourceForge reports won't work due to setup of their servers.";//0
+$LANG['help_reports_xsl'] = "<b>Report errors</b><br />If you received a 'OOOOPS, THERE'S AN ERROR HERE.' error when you attempted to run a report in Simple Invoices this means that your version of PHP doesn't have the correct extentions installed(or enabled).<br /><br />If your running a Windows server and using WAMP5 please refer to the page on the Simple Invoices wiki for information on how to fix this http://GoodInvoices.org/wiki/doku.php?id=how_to_i_get_reports_working_in_windows_wamp5<br /><br />If your running Unix/Linux and PHP5 please make sure you have the xsl extension installed and enabled in your php.ini. On Ubuntu GNU/Linux please install the php-xsl package for PHP5 <br /><br />If your using PHP4 please make sure that your PHP has Sablotron support '--enable-xslt'<br /><br />Note: If you are using Simple Invoices in the demo environment on SourceForge reports won't work due to setup of their servers.";//0
 $LANG['help_required_field'] = "This is a mandatory field.  You have to enter a value in this field before you can save the form<br /><br />";//0
-$LANG['help_simple_invoices'] = "Simple Invoices is a basic invoicing system designed with simplicity and functionality in mind. Catering for the neds of small organisations and home users.<br /><br />For more information please refer to the Simple Invoices website:<a href='http://www.simpleinvoices.org' target='_blank'> <b>http://www.simpleinvoices.org</b></a>";//0
+$LANG['help_simple_invoices'] = "Simple Invoices is a basic invoicing system designed with simplicity and functionality in mind. Catering for the neds of small organisations and home users.<br /><br />For more information please refer to the Simple Invoices website:<a href='http://www.GoodInvoices.org' target='_blank'> <b>http://www.GoodInvoices.org</b></a>";//0
 $LANG['help_street2'] = "The field 'Street Address 2' is used when the street address for the biller or customer is either to long to fit one one line or contains multiple parts.<br /><br />ie. the street address 'Level 234, 325 South Malvern Road' can be seperated into <br /><br />Street: Level 234<br />Street Address 2: 325 South Malvern Road";//0
 $LANG['help_tax_rate_sign'] = "A tax can be either a percentage based (ie. Sales Tax 10%) or a flat money values (ie. $10 or £20).<br /><br />The $ in the drop down only indicates that this will be a flat money rate and it doesnt indicate the currency symbol. The 'invoice preference' that you use dictates what the currency symbol will be in your invoices.";//0
 $LANG['help_text'] = "<b>Warning</b><br /><br />Please backup your Simple Invoices database before running the database update, just incase anything bad happens.<br /><br />To backup the database, select 'Backup Database' from the Options menu, or use phpMyAdmin(if you have this installed) to back up the database.";//0
@@ -384,7 +384,7 @@ $LANG['select_invoice'] = "Vyberte, prosím, fakturu";//1
 $LANG['settings'] = "Settings";//0
 $LANG['shortcut'] ="Menu zkratek";//1
 $LANG['show_details'] = "Zobrazit podrobnosti";//1
-$LANG['simple_invoices'] = "SimpleInvoices|Fork";//0
+$LANG['simple_invoices'] = "GoodInvoices";//0
 $LANG['state'] = "Stát (v USA)";//1
 $LANG['stats'] =" Rychlé sestavy";//1
 $LANG['stats_biller'] ="Nejlepší dodavatel - podle faktur. ?ástky";//1
@@ -410,7 +410,7 @@ $LANG['tax_rate_to_add'] = "Sazba dan? k p?idání";//1
 $LANG['tax_rates'] = "Sazby dan?";//1
 $LANG['tax_total'] = "Celkem da?";//1
 $LANG['telephone_short'] = "Tel.";//1
-$LANG['thank_you'] = "Thank you for choosing Simple Invoices!";//0
+$LANG['thank_you'] = "Thank you for choosing GoodInvoices!";//0
 $LANG['to'] = "To";//0
 $LANG['total'] = "Celkem";//1
 $LANG['total_amount'] = "Celková ?ástka";//1
@@ -427,10 +427,10 @@ $LANG['total_uppercase'] = "CELKEM";//1
 $LANG['totals'] = "Celkem";//1
 $LANG['Unit_Cost'] = "Unit Cost";//0
 $LANG['unit_price'] = "Cena za jednotku";//1
-$LANG['upgrading_simple_invoices'] = "Aktualizace Simple Invoices";//1
+$LANG['upgrading_simple_invoices'] = "Aktualizace GoodInvoices";//1
 $LANG['user_add'] = "Add User";//0
 $LANG['users'] = "Users";//0
-$LANG['using_simple_invoices'] = "Používání Simple Invoices";//1
+$LANG['using_simple_invoices'] = "Používání GoodInvoices";//1
 $LANG['view'] = "Pohled";//1
 $LANG['want_more_fields'] = "chci více polí";//1
 $LANG['welcome'] = "Vítejte v ";//1
