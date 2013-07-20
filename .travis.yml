@@ -1,10 +1,8 @@
 language: php
 php:
   - "5.5"
-  - "5.4"
-  - "5.3"
   
 before_script:
-  - mysql -e 'CREATE database si;'
+  - mysql -e 'CREATE DATABASE si;'
   - mysql -e 'USE si;'
   - mysql < databases/mysql/structure.sql
