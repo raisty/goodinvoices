@@ -3,9 +3,6 @@
 /*
 * Script: phpinfo.php
 * 	Show the servers PHP settings
-*
-* License:
-*	 GPL v3 or above
 */
 
 $secure = true;
@@ -14,7 +11,7 @@ if($secure)
 {
     die("
         =============================<br/>
-        Simple Invoices security warning<br/>
+        GoodInvoices security warning<br/>
         =============================<br/>
         <br/>
         PHPINFO is disabled by default for security reasons. 

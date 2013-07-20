@@ -2,15 +2,9 @@
 /*
 * Script: details.php
 * 	invoice details page
-*	modified for 'default_invoice' by Marcel van Dorp. Version 20090208
+*	modified for 'default_invoice'
 *	'template' is added, and filled with a sane default
-*
-* License:
-*	 GPL v3 or above
-*
-* Website:
-* 	http://www.simpleinvoices.org
- */
+*/
 #table
 
 //stop the direct browsing to this file - let index.php handle which files get displayed

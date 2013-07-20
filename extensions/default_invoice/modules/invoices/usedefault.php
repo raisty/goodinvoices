@@ -1,20 +1,9 @@
 <?php
 /*
 * Script: usedefault.php
-* 	page which chooses an empty page or another invoice as templat
+* 	page which chooses an empty page or another invoice as template
 *
-* Authors:
-*	 Marcel van Dorp, Justin Kelly, Nicolas Ruflin
-*
-* Last edited:
-* 	 2009-02-08
-*
-* License:
-*	 GPL v2 or above
-*
-* Website:
-* 	http://www.simpleinvoices.org
- */
+*/
 #table
 
 //stop the direct browsing to this file - let index.php handle which files get displayed

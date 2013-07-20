@@ -2,15 +2,6 @@
 /*
 * Script: functions.php
 *	Contain all the functions used in Simple Invoices
-*
-* Authors:
-*	- Justin Kelly
-*
-* License:
-*	GNU GPL2 or above
-*
-* Date last edited:
-*	Fri Feb 16 21:48:02 EST 2007
 **/
 
 function checkLogin() {

@@ -2,10 +2,7 @@
 
 /*
 * Script: index.php
-* 	Main controller file for Simple Invoices
-*
-* License:
-*	 GPL v3 or above
+* 	Main controller file for GoodInvoices
 */
 
 //stop browsing to files directly - all viewing to be handled by index.php

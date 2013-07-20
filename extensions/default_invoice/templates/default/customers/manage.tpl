@@ -6,13 +6,6 @@
 *        Only the include file has changed
 *	 in xml.php the query is extended 
 *	 to retrieve the last invoice for this customer too
-*	 Version 20090208, modifications by Marcel van Dorp
-*
-* License:
-*	 GPL v3 or above
-*
-* Website:
-*	http://www.simpleinvoices.org
 */
 *}
 

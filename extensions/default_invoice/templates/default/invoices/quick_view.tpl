@@ -2,20 +2,6 @@
 /*
 * Script: quick_view.tpl
 * 	 Quick view of invoice template
-*
-* Authors:
-*	 Justin Kelly, Nicolas Ruflin, Ap.Muthu
-*	 Modified for 'default_invoice by Marcel van Dorp. Version 20090208
-*	 'Customer' section has an extra button to set the default invoice
-*
-* Last edited:
-* 	 2008-01-03
-*
-* License:
-*	 GPL v2 or above
-*
-* Website:
-*	http://www.simpleinvoices.org
 */
 *}
 

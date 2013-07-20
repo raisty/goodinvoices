@@ -10,15 +10,6 @@
  * The $id of a CustomField have to be unique. It's hardcoded into the plugin,
  * so before setting an id, please check the other plugins.
  * The id's from 0-99 are reserved for core plug-ins. So please use an id > 100.
- *
- * Authors:
- *	 Nicolas Ruflin
- *
- * Last edited:
- * 	 2007-09-10
- *
- * License:
- *	 GPL v2 or above
  */
 abstract class CustomField {
 	

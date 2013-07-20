@@ -3,18 +3,6 @@
 /*
 * Script: report_sales_by_period.php
 * 	Sales reports by period add page
-*
-* Authors:
-*	 Justin Kelly
-*
-* Last edited:
-* 	 2008-05-13
-*
-* License:
-*	 GPL v3
-*
-* Website:
-* 	http://www.simpleinvoices.org
 */
 
 checkLogin();

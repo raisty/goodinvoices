@@ -2,15 +2,6 @@
 /*
 * Script: index.php
 * 	All manage functions for the custom field system (global)
-*
-* Authors:
-*	 Nicolas Ruflin
-*
-* Last edited:
-* 	 2007-09-10
-*
-* License:
-*	 GPL v2 or above
 */
 include("./include/CustomField.php");
 
