@@ -3,6 +3,4 @@ php:
   - "5.5"
   
 before_script:
-  - mysql -e 'CREATE DATABASE si;'
-  - mysql -e 'USE si;'
   - mysql < databases/mysql/structure.sql
