@@ -6,5 +6,5 @@ php:
   
 before_script:
   - mysql -e 'CREATE database si;'
-  - mysql -e 'USE database si;'
+  - mysql -e 'USE si;'
   - mysql < databases/mysql/structure.sql
