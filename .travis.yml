@@ -1,6 +1,9 @@
 language: php
 php:
   - "5.5"
+
+env:
+  - DB=mysql
   
 before_script:
-  - mysql < databases/mysql/structure.sql
+  - if [[ "$DB" == "mysql" ]]; then mysql < databases/mysql/structure.sql fi
