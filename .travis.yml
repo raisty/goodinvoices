@@ -6,4 +6,4 @@ env:
   - DB=mysql
   
 before_script:
-  - if [[ "$DB" == "mysql" ]]; then mysql < databases/mysql/structure.sql fi
+  - if [[ "$DB" == "mysql" ]]; then mysql < databases/mysql/structure.sql; fi
